@@ -1,0 +1,49 @@
+/* bodyのフォントを「"Arial", "Meiryo", sans-serif」にする*/
+body{
+  font-family:"Arial","Meiryo",sans-serif;  
+}
+
+/*　ルート要素のフォントサイズを20pxにする*/
+html{
+  font-size:20px;
+}
+
+/*「MY PROFILE」の「M」をスカイブルー(キーワード）に、
+「P」をピンクrgb(255, 192, 203) にする
+「名前」「血液型」「好きな食べ物」の見出しにはピンク
+生年月日」「趣味」「プログラミングを始めた理由」の見出しにはスカイブルー*/
+.blue{
+color:skyblue;
+}
+.pink{
+  color:rgb(255, 192, 203);
+  }
+
+/* h1の装飾
+Googleフォント「Josefin Sans」 を使用
+ルート要素の2倍になるように
+総称フォントは、「sans-serif」 を使用
+文字間は、文字の大きさに対して1.2倍になるように
+影を付けてください。影の大きさや色は自由
+下に3px（カラー：rgb(115, 115, 114)）の実線を付ける*/
+#first-heading {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: nomal;
+  font-size:2rem;
+  letter-spacing:1.2em;
+  text-shadow:2px 2px 4px gray;
+  border-bottom:solid 3px rgb(115, 115, 114);
+}
+/*全て中央寄せ*/
+/*「名前」～「血液型」までの要素をid属性basicのdivタグで囲う
+   子孫要素の考え方を利用して、「侍太郎」「1990年1月1日」「O型」を太字に
+   それ以外のp要素は太字にならないよう注意*/
+
+   body{
+    text-align:center;
+   }
+   #basic > P {
+font-weight:bold;
+  }
