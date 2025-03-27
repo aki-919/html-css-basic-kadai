@@ -28,9 +28,6 @@ Googleフォント「Josefin Sans」 を使用
 下に3px（カラー：rgb(115, 115, 114)）の実線を付ける*/
 #first-heading {
   font-family: "Josefin Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: nomal;
   font-size:2rem;
   letter-spacing:1.2em;
   text-shadow:2px 2px 4px gray;
